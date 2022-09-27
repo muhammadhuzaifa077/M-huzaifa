@@ -1,67 +1,64 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<session4>
+    <!-- 1 -->
+    <Book>
+        <Title>Path to Paradise</Title>
+        <Author>David White</Author>
+        <Theme>Philosophy</Theme>
+        <Publisher>Abc Publication</Publisher>
+        <ISBN>11</ISBN>
+        <Price>$12481</Price>
+        <Edition>June 2000</Edition>
+    </Book>
+    <!-- 2 -->
+    <Message>
+        Hello World
+    </Message>
+    <!-- 3 -->
+    <program>
+        <comments>
+            This is a Simple java program.It will display the Message
+            "Hello World!" On execution.
+        </comments>
+        <code>
+            public static void main(String[] args)
+            System.out.println("Hello World!"); // Display the
+            string.
+        </code>
+    </program>
+   
+    <!-- 4 -->
+    <mail>
+        xmlns="https//www.facebook.com"
+        xmlns:xsi="http//www.abc.com"
+        xsi:schemaLocation="session4.xsd"
 
- <!-- eg:1 -->
- <!ELEMENT Mobile (Company, Model, Price, Accessories)>
-<!ELEMENT Company (#PCDATA)>
-<!ELEMENT Model (#PCDATA)>
-<!ELEMENT Price (#PCDATA)>
-<!ELEMENT Accessories (#PCDATA)>
-<!ATTLIST Model Type CDATA â€œCameraâ€>
-<!ENTITY HP â€œHead Phonesâ€>
-<!ENTITY CH â€œChargerâ€>
-<!ENTITY SK â€œStarters Kitâ€>
- <!-- eg:2 -->
-<?xml version=â€1.0â€ encoding=â€ISO-8859-1â€?>
-<!DOCTYPE Mail [
-<!ELEMENT Mail (To, From, Date, Time, Cc, Bcc, Subject, Message, Signatu re)>
-<!ELEMENT To (#PCDATA)>
-<!ELEMENT From (#PCDATA)>
-<!ELEMENT Date (#PCDATA)>
-<!ELEMENT Time (#PCDATA)>
-<!ELEMENT Cc (#PCDATA)>
-<!ELEMENT Bcc (#PCDATA)>
-<!ELEMENT Subject (#PCDATA)>
-<!ELEMENT Message (#PCDATA)>
-<!ELEMENT Signature (#PCDATA)>
-]>
-<Mail>
-<To> anne@xyz.com </To>
-<From> bob@xyz.com </From>
-<Date> 27th February 2007 </Date>
-<Time> 11:30 am </Time>
-<Cc> </Cc>
-<Bcc> </Bcc>
-<Subject> Meeting at Main Conference Room at 4:30pm </Subject>
-<Message> Hi, Kindly request you to attend the cultural body general meeting in the main conference room at 4:30 pm. Please be present to learn about the new activities being planned for the employees for this year. Yours sincerely, Bob
-</Message>
-<Signature> </Signature>
-</Mail>
- <!-- eg:3 -->
- Default Value
-<!ATTLIST Model Type CDATA â€œCameraâ€>
-#IMPLIED
-<!ATTLIST Model Type CDATA â€œCameraâ€ #IMPLIED>
-#REQUIRED
-<!ATTLIST Model Type CDATA #REQUIRED>
-#FIXED
-<!ATTLIST Model Type CDATA #FIXED â€œCameraâ€>
-Enumerated Attribute Values
-<!ATTLIST Model Type (Camera|Bluetooth) â€œCameraâ€>
- <!-- eg:4 -->
- <!DOCTYPE Mobile [
-<!ELEMENT Mobile (Company, Model, Price, Accessories)>
-<!ELEMENT Company (#PCDATA)>
-<!ELEMENT Model (#PCDATA)>
-<!ELEMENT Price (#PCDATA)>
-<!ELEMENT Accessories (#PCDATA)>
-<!ATTLIST Model Type CDATA â€œCameraâ€>
-<!ENTITY HP â€œHead Phonesâ€>
-<!ENTITY CH â€œChargerâ€>
-<!ENTITY SK â€œStarters Kitâ€>
-]>
-<Mobile>
-<Company> Nokia </Company>
-<Model Type=â€Cameraâ€> 6600 </Model>
-<Price> 9999 </Price>
-<Accessories> &HP;, &CH; and a &SK; </Accessories>
-</Mobile>
+        <to>John</to>
+        <from>Jordan</from>
+        <header>Schedular</header>
+        <body>3rd March Monday, 7:30 PM: board meeting!</body>
+    </mail>
+
+    <!-- 5 -->
+    <Book>
+    <Title>A cup of tea</Title>
+    <Author>
+    <Name>Dennis Compton</Name>
+    </Author>
+    <Author>
+    <Name>George Ford</Name>
+    </Author>
+    <Publisher>
+    <Name>Orange</Name>
+    </Publisher>
+    </Book>
+    
+    <!-- 6 -->
+    <Books>
+        Apocalypse written by<Author>Mary Jane</Author>is of Genre<Type>Fiction</Type>
+    </Books>
+    <!-- 7 -->
+        <book_name>The Da Vinci code</book_name>
+        <TotalNoOfpages>360</TotalNoOfpages>
+        <Author_Name>Dan Brown</Author_Name>
+</session4>
